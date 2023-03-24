@@ -11,7 +11,7 @@
                     <input id="default-checkbox" type="checkbox" value="" class="w-5 h-5 text-tundora bg-gray-100 border-tundora rounded focus:tundora">
                     <label for="default-checkbox" class="ml-6 text-sm font-medium text-gray-900 dark:text-gray-300"></label>
                     {{ feedback }}
-                </div>>
+                </div>
             </div>
             <div class="flex items-center justify-center w-full">
                 <button @click="() => handlePopup()" class=" col-span-4 bg-royal-purple text-pale-white text-base font-normal rounded-lg h-[48px] w-7/12 mt-4">Cancel loan application</button> 
