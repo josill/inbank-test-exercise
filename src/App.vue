@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col min-h-screen min-w-screen items-center justify-center">
+  <div class="flex flex-col min-h-screen h-full min-w-screen items-center justify-center">
     <header-global />
-    <div class="w-10/12 h-1/2 md:flex lg:w-1/2 gap-x-20 m-auto items-center justify-center">
+    <div class="w-10/12 h-1/2 flex flex-col md:flex md:flex-row lg:w-3/4 gap-x-20 m-auto items-center justify-center">
       <picture-card />
       <approved-message
       :loanOffer="'1,700.00'" 

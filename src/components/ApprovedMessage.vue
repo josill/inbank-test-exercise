@@ -7,14 +7,14 @@
             </div>
             <div class="border border-grey rounded-3xl bg-grey-5"></div>
             <div class="grid grid-rows-3 grid-cols-2 gap-x-6 gap-y-6 py-6">
-                <p class="row-start-1 row-end-1 col-span-1 justify-self-end text-sm text-grey-3 font-normal">Personal loan offer</p>
-                <p class="row-start-2 row-end-2 col-span-1 justify-self-end text-sm text-grey-3 font-normal">Loan period</p>
-                <p class="row-start-3 row-end-3 col-span-1 justify-self-end text-sm text-grey-3 font-normal">Monthly payment</p>
+                <p class="row-start-1 row-end-1 col-span-1 justify-self-end mt-1 text-sm text-grey-3 font-normal">Personal loan offer</p>
+                <p class="row-start-2 row-end-2 col-span-1 justify-self-end mt-1 text-sm text-grey-3 font-normal">Loan period</p>
+                <p class="row-start-3 row-end-3 col-span-1 justify-self-end mt-1 text-sm text-grey-3 font-normal">Monthly payment</p>
                 
-                <p class="row-start-1 row-end-1 col-span-2 flex flex-row text-lg text-tundora font-normal">
+                <div class="row-start-1 row-end-1 col-span-2 flex flex-row text-lg text-tundora font-normal">
                     {{ loanOffer }}
                     <span><img class="pt-1.5" :src="require('@/assets/images/euro-sign.svg')" alt="euro-sign" /></span>
-                </p>
+                </div>
                 <p class="row-start-2 row-end-2 col-span-2 text-lg text-tundora font-normal">
                     {{ loanPeriod }}
                     <span class="text-xs">months</span>
@@ -26,8 +26,8 @@
             </div>
             <div class="border border-grey rounded-3xl bg-grey-5"></div>
             <div class="grid grid-rows-2 grid-cols-2 gap-x-6 gap-y-6 py-6">
-                <p class="row-start-1 row-end-1 col-span-1 justify-self-end text-sm text-grey-3 font-normal">Personal loan offer</p>
-                <p class="row-start-2 row-end-2 col-span-1 justify-self-end text-sm text-grey-3 font-normal">Loan period</p>
+                <p class="row-start-1 row-end-1 col-span-1 justify-self-end mt-1 text-sm text-grey-3 font-normal">Personal loan offer</p>
+                <p class="row-start-2 row-end-2 col-span-1 justify-self-end mt-1 text-sm text-grey-3 font-normal">Loan period</p>
                 
                 <p class="row-start-1 row-end-1 col-span-2 flex flex-row text-lg text-tundora font-normal">
                     {{ interestRate }}
@@ -36,9 +36,9 @@
                 <p class="row-start-2 row-end-2 col-span-2 flex flex-row text-lg text-tundora font-normal">
                     {{ margin }}
                     <span><img class="pt-1.5" :src="require('@/assets/images/percent-sign.svg')" alt="percent-sign" /></span>
-                    <span class="text-sm pt-1.5 pl-1">+ 6 months EURIBOR (0</span>
+                    <span class="text-[10px] md:text-sm lg:text-sm pt-0.5 md:pt-1.5 pl-1">+ 6 months EURIBOR (0</span>
                     <img class="pt-0.5" :src="require('@/assets/images/percent-sign.svg')" alt="percent-sign" />
-                    <span class="text-sm pt-1.5">)</span>
+                    <span class="text-[10px] md:text-sm lg:text-sm pt-0.5 md:pt-1.5">)</span>
                 </p>
             </div>
             <div class="border border-grey rounded-3xl bg-grey-5"></div>
